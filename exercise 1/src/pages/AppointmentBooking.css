@@ -1,0 +1,23 @@
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.booking-form .input-with-icon .pl-10 {
+  padding-left: 2.5rem;
+}
+
+.p-8 {
+  padding: 2rem;
+}
